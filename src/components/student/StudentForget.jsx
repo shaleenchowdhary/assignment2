@@ -35,15 +35,21 @@ function StudentForget() {
           <p className="text-gray-500">Please Enter Your ID & Password</p>
 
           <div className="flex flex-col w-4/5 text-left gap-4 py-4">
-            <h3 className="text-base font-medium">Login ID</h3>
+            <label htmlFor="login" className="text-base font-medium">
+              Login ID
+            </label>
             <input
+              id="login"
               type="text"
               className="border-gray-500 border-2 rounded-lg py-1 px-2"
               placeholder="Ex: 12345"
             />
-            <h3 className="text-base font-medium">Enter E-mail</h3>
+            <label htmlFor="email" className="text-base font-medium">
+              Enter E-mail
+            </label>
             <div className="flex gap-4 sm:flex-row flex-col">
               <input
+                id="email"
                 type="email"
                 className="border-gray-500 border-2 rounded-lg py-1 px-2 grow"
                 placeholder="abc@gmail.com"

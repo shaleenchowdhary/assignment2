@@ -34,14 +34,20 @@ function TeacherForget() {
             <p className="text-gray-500">Please Fill the Details Below</p>
 
             <div className="flex flex-col w-4/5 text-left gap-4 py-4">
-              <h3 className="text-base font-medium">Enter New Password</h3>
+              <label htmlFor="new-password" className="text-base font-medium">
+                Enter New Password
+              </label>
               <input
+                id="new-password"
                 type="text"
                 className="border-gray-500 border-2 rounded-lg py-1 px-2"
                 placeholder="Ex: 49283"
               />
-              <h3 className="text-base font-medium">Re-enter Password</h3>
+              <label htmlFor="re-enter" className="text-base font-medium">
+                Re-enter Password
+              </label>
               <input
+                id="re-enter"
                 type="text"
                 className="border-gray-500 border-2 rounded-lg py-1 px-2"
               />
