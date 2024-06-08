@@ -52,7 +52,7 @@ function TeacherLogin() {
               />
               <h3 className="text-base font-medium">Password</h3>
               <input
-                type="text"
+                type="password"
                 className="border-gray-500 border-2 rounded-lg py-1 px-2"
               />
               <Link to="/teacher-forget" className="text-sm text-blue-600">
