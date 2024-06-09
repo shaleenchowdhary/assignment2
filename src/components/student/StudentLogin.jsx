@@ -2,8 +2,8 @@ import logo from '../../assets/SchoolLogo.png';
 import { Link } from 'react-router-dom';
 function StudentLogin() {
   return (
-    <div className="flex w-full sm:h-screen flex-col sm:flex-row justify-around">
-      <div className="flex w-full h-1/2 sm:h-full items-center justify-center sm:w-1/2 flex-col">
+    <div className="flex w-full h-full flex-col sm:flex-row justify-around">
+      <div className="flex w-full sm:h-full items-center justify-center sm:w-1/2 flex-col">
         <div className="sm:h-2/5 sm:w-1/2">
           <img
             src={logo}
@@ -11,7 +11,7 @@ function StudentLogin() {
             className="object-fit h-full w-full"
           />
         </div>
-        <div className="sm:h-3/5 sm:w-11/12 flex justify-normal gap-4 flex-col items-center">
+        <div className="sm:w-11/12 flex justify-normal gap-4 flex-col items-center">
           <h1 className="font-bold text-xl">
             Powering student-centric education in school
           </h1>
@@ -24,11 +24,10 @@ function StudentLogin() {
           </p>
         </div>
       </div>
-
-      <div className="w-full flex items-center justify-center sm:w-1/2 h-1/2 sm:h-full py-0 sm:py-8 sm:m-0 my-10">
+      <div className="w-full flex items-center justify-center sm:w-1/2 sm:h-full py-0 sm:m-0 my-10">
         <form
           action=""
-          className="bg-slate-50 flex flex-col sm:w-11/12 h-5/6 border-2 border-slate-300 rounded-2xl py-4 items-center px-4"
+          className="bg-slate-50 flex flex-col sm:w-11/12 sm:h-5/6 border-2 border-slate-300 rounded-2xl py-4 items-center px-4 justify-center"
         >
           <h1 className="font-bold text-xl">Welcome Back</h1>
           <p className="text-gray-500">Please Enter Your ID & Password</p>
